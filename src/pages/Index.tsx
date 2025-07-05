@@ -114,14 +114,6 @@ const Index = () => {
               <div className="flex items-center space-x-4 text-slate-300">
                 <div className="flex items-center">
                   <Icon
-                    name="Users"
-                    className="mr-1 text-green-400"
-                    size={16}
-                  />
-                  <span className="text-sm">Онлайн: 1,247</span>
-                </div>
-                <div className="flex items-center">
-                  <Icon
                     name="Server"
                     className="mr-1 text-green-400"
                     size={16}
@@ -139,28 +131,10 @@ const Index = () => {
       {/* Stats Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-800/30">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-green-400 mb-2">
-                1,247
-              </div>
-              <div className="text-slate-300">Игроков онлайн</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-green-400 mb-2">
-                15,638
-              </div>
-              <div className="text-slate-300">Общий регистраций</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-green-400 mb-2">
-                8,942
-              </div>
-              <div className="text-slate-300">PvP убийств</div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold text-green-400 mb-2">24/7</div>
-              <div className="text-slate-300">Стабильность</div>
+              <div className="text-slate-300">Стабильность сервера</div>
             </div>
           </div>
         </div>
