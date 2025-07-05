@@ -128,18 +128,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-800/30">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-green-400 mb-2">24/7</div>
-              <div className="text-slate-300">Стабильность сервера</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Donation Section */}
       <section id="donate" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
