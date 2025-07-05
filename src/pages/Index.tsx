@@ -126,7 +126,9 @@ const Index = () => {
                     className="mr-1 text-green-400"
                     size={16}
                   />
-                  <span className="text-sm">IP: pvpcraft.ru</span>
+                  <span className="text-sm">
+                    IP: launcherlol.aternos.me:35546
+                  </span>
                 </div>
               </div>
             </div>
@@ -374,7 +376,10 @@ const Index = () => {
               <h4 className="text-white font-semibold mb-4">Подключение</h4>
               <div className="space-y-2">
                 <div className="text-slate-400">
-                  IP: <span className="text-green-400">pvpcraft.ru</span>
+                  IP:{" "}
+                  <span className="text-green-400">
+                    launcherlol.aternos.me:35546
+                  </span>
                 </div>
                 <div className="text-slate-400">
                   Версия: <span className="text-green-400">1.18</span>
