@@ -377,7 +377,7 @@ const Index = () => {
                   IP: <span className="text-green-400">pvpcraft.ru</span>
                 </div>
                 <div className="text-slate-400">
-                  Версия: <span className="text-green-400">1.20+</span>
+                  Версия: <span className="text-green-400">1.18</span>
                 </div>
               </div>
             </div>
